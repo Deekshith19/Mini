@@ -1,0 +1,17 @@
+Now I have created start.py and it will call main6.py and second6.py simulaltaneously to crawl the web app and store it in main_crawled.json and second_crawl.json.  Later the pdf.py will be automatically caled to generate a pdf from  main_crawled.json and second_crawl.json called crawledinfo.pdf.
+
+The script will collect the following types of data during its crawling process:
+
+    URL: The specific page URL being accessed.
+    HTTP Method: The method used for the request (e.g., GET).
+    Status Code: The HTTP response status code (e.g., 200).
+    Cookies: Any cookies set by the web server.
+    Headers: Response headers (as obtained from performance entries).
+    HTML Content: The full HTML response of the page.
+    Input Fields: Names of input fields from forms (including file upload fields).
+    Visited URLs: A set of URLs that have been visited to avoid duplicates.
+    
+ 
+ whats's next"
+ do the lab on cookie tampering and report there is an issue.
+ use POST request to input in the input field.
